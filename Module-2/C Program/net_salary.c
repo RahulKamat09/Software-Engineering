@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
     //Program To calculate Net Salary!!
 
@@ -16,6 +16,4 @@ int main()
     printf("Gross Salary=%d\n",gross);
     printf("Tax=%d\n",tax);
     printf("Net salary =%d\n",net_salary);
-
-    return 0;
 }
