@@ -3,9 +3,15 @@ void main(){
 
     //Program To calculate Simple Interest!!
 
-    int principle = 50000;//Amount
-    int interest= 15;//Interest
-    int time_years = 3;//time of years
+    int principle;//Amount
+    printf("Enter The Amount:");
+    scanf("%d",&principle);
+    int interest;//Interest
+    printf("Enter The Interest:");
+    scanf("%d",&interest);
+    int time_years;//time of years
+    printf("Enter The Time of Years:");
+    scanf("%d",&time_years);
 
     int simple_interest= (principle * interest * time_years)/100; //calculation of SI
     int totalAmount = principle + simple_interest;//Total Amount After SI

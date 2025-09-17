@@ -3,7 +3,9 @@ void main()
 {
     //Program To calculate Net Salary!!
 
-    int basic_salary = 10000;//Basic Salary
+    int basic_salary;//Basic Salary
+    printf("Enter The Amount of Basic Salary:");
+    scanf("%d",&basic_salary);
     int da = (basic_salary*2)/100;//calculation of DA
     int hra = (basic_salary*3)/100;//calculation Of HRA
     int gross = basic_salary + da +hra;//calculation of GROSS
