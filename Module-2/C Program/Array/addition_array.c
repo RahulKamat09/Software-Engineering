@@ -11,7 +11,7 @@ int main()
         scanf("%d",&a[i]);
     }
     display(a);
-    addition(a);
+    printf("The sum of array elements = %d\n", addition(a));
 }
 
 int display(int a[])
