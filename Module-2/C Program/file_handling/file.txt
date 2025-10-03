@@ -1,0 +1,6 @@
+Jay
+Murtaza
+
+ID=101
+Name=batu
+salary=30000.000000
